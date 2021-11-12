@@ -1,0 +1,46 @@
+.wrapper{
+    display:flex;
+ 
+    flex-flow:row wrap;
+    text-align: center;
+}
+
+.wrapper>*{
+    padding: 10px;
+    margin:10px;
+    flex:1 100%;
+    border-radius: 10px;
+}
+.header{
+    background-color: green;
+    height:220px;
+    width:90%;
+    
+}
+.aside1{
+    background-color: tomato;
+    height:220px;
+
+}
+.aside2{
+    background-color: tomato;
+    height:220px;
+}
+@media all and (min-width:800px){
+
+
+    .aside1{
+      
+        order:1;
+    }
+    .aside2{
+        order:2;
+    }
+
+}
+@media all and (min-width: 600px){
+    .aside{
+        flex: 1 0 0;
+    }
+
+}

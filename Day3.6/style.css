@@ -1,0 +1,35 @@
+.grid{
+    display:grid;
+    grid-template-columns: 50%;
+  padding-bottom: 1%;
+  padding-left: 30%;
+ 
+text-align: center;
+row-gap: 2%;
+   
+
+   
+}
+.container{
+    display:grid;
+    grid-template-columns: 24% 24%;
+   
+    column-gap: 2%;
+  
+    padding-left: 30%;
+    text-align: center;
+}
+.item-1{
+   
+  border:1px solid black;
+ height:200px;
+ background-color: green;
+  
+ 
+}
+
+.item-3,.item-2{
+    border:1px solid black;
+    height:200px;
+    background-color: tomato;
+}
