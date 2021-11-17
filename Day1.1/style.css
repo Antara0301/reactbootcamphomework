@@ -1,0 +1,80 @@
+
+html{
+    background-color: rgb(199, 236, 236);
+}
+
+.container{
+    border: 1px solid rgb(184, 231, 231)
+}
+
+h1{
+ display: flex; 
+ text-align: center;
+ justify-content: space-between;
+ width:400px;
+ font-size: 90px;
+ margin-bottom: 10px;
+ margin-top: 15px;
+ 
+}
+img{
+    padding-right: 8%;
+   padding-left: 10%;
+
+}
+img:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 20px;
+  }
+  table{
+    padding-left: 50%;
+     border: 2px solid black;
+     border-collapse: collapse ;
+     width: 80%;
+     
+ }
+ .iframe{
+    padding-left: 31%;
+    padding-top:2% ;
+  padding-bottom: 2%;
+   background-color: rgb(184, 231, 231);
+ }
+.myimg{
+    padding-left: 35%;
+}
+#table{
+    border-left: 35%;
+    padding-left: 20%;
+}
+.list{
+    padding-left: 45%;
+    padding-bottom: 2%;
+}
+.formshet{
+   
+    text-align: center;
+    width:40%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 30%;
+}
+form{
+    border:2px solid blue;
+    padding-top: 20px;
+}
+button{
+    background-color: aqua;
+    font-size: large;
+}
+button:hover{
+    background-color:green;
+    cursor: pointer;
+}
