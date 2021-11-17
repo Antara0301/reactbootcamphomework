@@ -1,0 +1,274 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Acme Co</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="desktopnav">
+<h1>ACME CO.</h1>
+<div class="navlinks">
+  <ul>
+    <li><a href="#">OVERVIEW</a></li>
+    <li>
+      <a href="#" id="product-tab">PRODUCTS</a>
+      <div class="product-toggle">
+        <div class="triangle"></div>
+        <div class="products">
+          <table>
+            <tr>
+              <td id="prodimg">
+              <img src="./frontend/assets/images/person-1.png" />
+              </td>
+              <td id="prod-content">
+                <h3>INFINITY</h3>
+                <p>
+                  Beard tumblr williamsburg forage shabby chic tote bag,
+                          chicharrones stumptown godard mustache hella street
+                          art.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td id="prodimg">
+                <img  src="./frontend/assets/images/person-2.png"/>
+              </td>
+              <td id="prod-content">
+              <h3>SAPPHIRE 65</h3>
+              <p>
+                Beard tumblr williamsburg forage shabby chic tote bag,
+                chicharrones stumptown godard mustache hella street
+                art.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </li>
+    <li href="#">SERVICES</li>
+    <li href="#">SUPPORT</li>
+    <li href="#">COMPANY</li>
+    <li><a id="login" href="#">LOGIN</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="burger">
+        <h1>ACME CO.</h1>
+        <a href="" id="burgerclicker"><img src="./frontend/assets/images/hamburger-icon.png" alt="hamburger icon"/></a>
+      </div>
+    </nav>
+  <div class="main">
+    <div class="box1">
+      <div class="b1-left">
+        <div class="b1-left-text">
+         <p id="b1-head">SPRING IS HERE</p>
+         <P id="b1-content">
+          We’ve updated out lineup of products for spring. Checkout the
+          lastest discounts and specials available until 4/20/22.
+         </P>
+        </div>
+        <button id="bl-button">EXPLORE PRODUCTS</button>
+      </div>
+      <div id="b1-right">
+        <img id="left"src="./frontend/assets/images/iphone-front.png"/>
+        <img src="./frontend/assets/images/iphone-back.png" />
+
+      </div>
+    </div>
+
+    <div class="box2">
+      <div class="b2-box1">
+      <img src="./frontend/assets/images/iphone-in-hand.png "/>
+      </div>
+      <div class="b2-box2">
+        <p id="b2-head">To Infinity & Beyond!</p>
+        <p id="b2-content">
+          Watch all your favorite movies anytime you want! Our premium plans
+          has over 10,000 movies and shows to choose from.
+        </p>
+      </div>
+     <div class="b2-box3">
+       <button id="b2-button">LEARN MORE</button>
+     </div>
+    </div>
+    <div class="box3">
+    <div class="quote">
+      <p id="q-content">
+        Pop-up banjo lumbersexual gentrify vinyl tofu. Taiyaki adaptogen
+        organic drinking vinegar hella. Four dollar toast salvia
+        cold-pressed, tilde fixie vape copper mug umami disrupt glossier
+        iceland man bun pour-over pabst. Vaporware banjo crucifix, kombucha
+        shaman schlitz tousled microdosing vinyl put a bird on it lomo vegan
+        pinterest.
+      </p>
+    </div>
+    <p id="author">-Jane Doe</p>
+    <div class="persons">
+      <img src="./frontend/assets/images/person-1.png"/>
+      <img src="./frontend/assets/images/person-2.png"/>
+      <img src="./frontend/assets/images/person-3.png"/>
+    </div>
+    </div>
+    <div class="box4">
+      <div class="b41">
+        <h2>Ready to Build?</h2>
+        <p>
+          Download our Developer SDK and begin creating experiencs of your
+          own.
+        </p>
+        <p>
+          Our platforms supports Development in JAVA, Go, Javascript, and
+          Python.
+        </p>
+      </div>
+      <div class="b42">
+        <button id="b4-button">EXPLORE THE SDK</button>
+      </div>
+      <div class="b43">
+        <div class="code-head">
+          <ul>
+            <li id="code-selected">JAVASCRIPT</li>
+            <li>GO</li>
+            <li>JAVA</li>
+            <li>PYTHON</li>
+          </ul>
+        </div>
+        <div class="codeblock">
+          <span
+            ><span id="purple">class &nbsp;</span>
+            <span id="yellow">NewGame &nbsp;</span>
+            <span id="white">{</span></span
+          >
+          <div class="innercode">
+            <span
+              ><span id="purple">constructor</span><span id="white">(</span
+              ><span id="red">settings</span
+              ><span id="white">&nbsp;&nbsp;=&nbsp;&nbsp;{</span
+              ><span id="red">id</span
+              ><span id="white">: &nbsp;&nbsp; ' ' , &nbsp;</span
+              ><span id="red">pinned</span
+              ><span id="white">: &nbsp;&nbsp;</span
+              ><span id="orange">false</span><span id="white">})</span></span
+            >
+            <span
+              ><span id="purple">const &nbsp;</span><span id="white">{</span
+              ><span id="red">&nbsp;id&nbsp;</span
+              ><span id="white">} &nbsp; = &nbsp;</span
+              ><span id="red">settings</span><span id="white">;</span></span
+            >
+            <span
+              ><span id="purple">const&nbsp;&nbsp;</span
+              ><span id="red">elementID&nbsp;&nbsp;</span
+              ><span id="white">=&nbsp;&nbsp;</span
+              ><span id="red">id&nbsp;&nbsp;</span
+              ><span id="white">|&nbsp;|&nbsp;&nbsp;</span
+              ><span id="white">'</span><span id="yellow">#game</span
+              ><span id="white">'&nbsp;;</span></span
+            >
+            <span
+              ><span id="purple">const&nbsp;&nbsp;</span
+              ><span id="red">hasSeenMessage&nbsp;&nbsp;</span
+              ><span id="white">=&nbsp;&nbsp;</span
+              ><span id="red">Cookies</span><span id="white">.</span
+              ><span id="blue">get</span><span id="white">('</span
+              ><span id="yellow">ga</span><span id="white">');</span></span
+            >
+            <span>&nbsp;</span>
+            <span id="gray"
+              >//&nbsp;&nbsp;CHECK IF USER HAS SEEN MESSAGE</span
+            >
+            <span
+              ><span id="purple">if&nbsp;&nbsp;</span
+              ><span id="white">( !&nbsp;</span
+              ><span id="red">hasSeenMessage</span
+              ><span id="white">)&nbsp;&nbsp; {</span></span
+            >
+            <div class="innerinnercode">
+              <span
+                ><span id="yellow">this</span><span id="white">.</span
+                ><span id="red">$GDPR&nbsp;&nbsp;</span
+                ><span id="white">=&nbsp;&nbsp;</span><span id="blue">$</span
+                ><span id="white">(&nbsp;</span
+                ><span id="red">elementId&nbsp;</span
+                ><span id="white">);</span></span
+              >
+              <span
+                ><span id="yellow">this</span><span id="white">.</span
+                ><span id="red">$close&nbsp;&nbsp;</span
+                ><span id="white">=&nbsp;&nbsp;</span
+                ><span id="yellow">this</span><span id="white">.</span
+                ><span id="red">$GDPR</span><span id="white">.</span
+                ><span id="blue">find</span
+                ><span id="white">(&nbsp;'&nbsp;</span
+                ><span id="yellow">#close-gdpr&nbsp;</span>
+                <span id="white">'&nbsp;);</span></span
+              >
+              <span>&nbsp;</span>
+              <span id="gray">// activate</span>
+              <span
+                ><span id="yellow">this</span><span id="white">.</span
+                ><span id="blue">activate</span
+                ><span id="white">();</span></span
+              >
+            </div>
+            <span id="white"></span>
+          </div>
+          <span id="white"></span>
+        </div>
+      </div>
+    </div>
+    <div class="box5">
+      <div class="b5-logo">
+        <img src="./frontend/assets/images/acme-logo.png" />
+      </div>
+      <div class="b5-links">
+        <div class="b5link">
+          <h3>Products</h3>
+          <ul>
+            <li>Acme Phone +</li>
+            <li>Phone Duo</li>
+            <li>Acme Tablet</li>
+            <li>Acme Computer</li>
+            <li>Acme Smart Desk</li>
+          </ul>
+        </div>
+        <div class="b5link">
+          <h3>Support</h3>
+          <ul>
+            <li>Help Desk</li>
+            <li>Talk to a Specialist</li>
+            <li>Email Support</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="b5link">
+          <h3>Company</h3>
+          <ul>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Support</li>
+            <li>Media kit</li>
+            <li>Terms of service</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+        <p>© 2020 ACME Co. All rights reserved.</p>
+        <p>Hand Made by ANTARA.AI</p>
+      </div>
+    </div>
+  </div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
+
