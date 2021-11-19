@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>JS HOMEWORK</title>
+</head>
+<body class="themChanger">
+    <!--
+        Change the content of div with Queryselector and queryselectorAll 
+Create new button  , When you click on that button , change the color of the text should change 
+Create button ...Change the class of the div from one class to another
+Using SCSS create a light theme and dark theme . Using a button , you need to swap theme ( TOGGLE )
+Create new button when clicked adds a new entry in to table 
+Create a button to remove entry from the table 
+    -->
+  <h1 class="colorchange">Need to change color of this text</h1><br/>
+  <button class="btn">Click me</button><br/><br/>
+  <button class="btn">Click me</button><br/><br/>
+
+  <table id="itemtable">
+      <tr>
+          <th>Name</th>
+          <th>Phone No</th>
+          <th>Delete Item</th>
+      </tr>
+      <tr id="row1">
+          <td>Jhon Doe</td>
+          <td>614407980</td>
+          <td><button class="deletebtn1">Delete</button></td>
+      </tr>
+      <tr id="row2">
+        <td>Jenny Doe</td>
+        <td>6453278650</td>
+        <td><button class="deletebtn1">Delete</button></td>
+    </tr>
+    <tr id='row3'>
+        <td>Anne Doe</td>
+        <td>645123980</td>
+        <td><button class="deletebtn1">Delete</button></td>
+    </tr>
+    
+  </table><br/>
+  <button class="btn2">Add new entry</button>  <br/><br/>
+  <button class="btn3" >Light Theme</button>
+
+<script src="app.js"></script>
+</body>
+</html>

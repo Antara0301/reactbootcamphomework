@@ -1,0 +1,37 @@
+table {
+  border: 1px solid red;
+  text-align: center;
+  height: 40px;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid red;
+  text-align: center;
+  height: 40px;
+}
+
+.btn, .btn2, .btn3 {
+  width: 8%;
+  height: 30px;
+  background-color: aqua;
+}
+
+/* createing light them dark theme */
+.btn3 {
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 5%;
+  font-size: 15px;
+}
+
+.themChanger {
+  background-color: #cec8c0;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

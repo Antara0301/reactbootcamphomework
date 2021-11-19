@@ -1,0 +1,53 @@
+@mixin tableItem{
+    border:1px solid red;
+text-align: center;
+height:40px;
+}
+
+@mixin button{
+    width:8%;
+    height:30px;
+    background-color: aqua;
+}
+
+
+
+
+table{
+    @include tableItem();
+    width: 50%;
+    border-collapse: collapse;
+}
+th,td{
+    @include tableItem();
+    
+}
+.btn, .btn2,.btn3{
+    @include button();
+}
+
+/* createing light them dark theme */
+
+@mixin lighttheme{
+    background-color: rgb(206, 200, 192);
+    color:black;
+}
+@mixin darktheme{
+    background-color: black;
+    color:white;
+
+}
+.btn3{
+    text-align: center;
+  margin-left: 40%;
+  margin-top: 5%;
+  font-size: 15px;
+}
+
+.themChanger{
+    @include lighttheme();
+}
+
+.dark{
+    @include darktheme();
+}
