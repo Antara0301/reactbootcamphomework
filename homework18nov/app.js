@@ -1,3 +1,6 @@
+
+/* Change color on h1*/
+
 var button=document.querySelector(".btn");
 console.log(button);
 button.addEventListener("click",onClick);
@@ -47,17 +50,7 @@ Array.from(buttonDelete).forEach((btn) =>{
   
 });
 
-//   var deleteBtn=document.querySelectorAll("button")
 
-// deleteBtn[1].addEventListener("click", function(){
-//     document.querySelector("#row1").remove();
-// })
-// deleteBtn[2].addEventListener("click", function(){
-//     document.querySelector("#row2").remove();
-// })
-// deleteBtn[3].addEventListener("click", function(){
-//     document.querySelector("#row3").remove();
-// })
 
  /* for add theme  */
 
@@ -66,9 +59,17 @@ Array.from(buttonDelete).forEach((btn) =>{
  themeButton.addEventListener("click" ,myTheme);
 
 function myTheme() {
+ 
     let presentTheme=document.querySelector(".themChanger");
-    presentTheme.classList.toggle("dark");
-    themeButton.innerText="Dark Theme"
+    if( presentTheme.classList.toggle("dark")){
+      themeButton.innerText="Dark Theme";
+    }else{
+      themeButton.innerText="Light Theme";
+    }
+   
+    
+   
+
  
 }
 
